@@ -43,7 +43,7 @@ function drawText(responseJson) {
   let x = (appWidth/2) - (text.length/2)*50;
   let y = appHeight/2;
   colors.forEach(function(color) {
-    let char = text.charAt(index);
+    let char = text[index];
     ctx.font = '60px Courier';
     ctx.fillStyle = color.value;
     ctx.fillText(char, x, y);
