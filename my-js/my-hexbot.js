@@ -29,7 +29,7 @@ function sizeCanvas() {
 }
 
 function draw() {
-  //get the data
+  // get the data
   NOOPBOT_FETCH({
     API: 'hexbot',
     count: text.length,
