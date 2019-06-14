@@ -10,8 +10,8 @@ function start_app() {
   // size canvas to window
   sizeCanvas();
 
-  // set up a ticker to refresh page automatically.
-  let speed = 300;  // how often screen refreshes, in milliseconds.
+  // set up a ticker to refresh page automatically
+  let speed = 300;  // how often screen refreshes, in milliseconds
   let ticker = NOOPBOT_TICK_SETUP(draw, speed);
 
   // fire a draw event
